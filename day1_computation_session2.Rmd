@@ -36,9 +36,9 @@ log(exp(1))
 
 ex_1 <- seq(from = 1, to = 20, by = 1)
 
-# Vdctor from 0 to 40, by increments of 0.2
+# Vector from 0 to 40, by increments of 0.2
 
-ex_2 <- seq(from = 0, to = 15, by = 0.5)
+ex_2 <- seq(from = 0, to = 40, by = 0.2)
 
 # Vector from 1 to 5000, by increments of 10
 
@@ -65,7 +65,7 @@ pop_logistic(capacity = 2580, init_pop = 230, rate = 0.32, time_yr = 2.4)
 ```{r}
 # Create a vector of times from 0 to 20, by increments of 0.5
 
-time_vec <- seq(from = 0, to = 40, by = 0.5)
+time_vec <- seq(from = 0, to = 15, by = 0.5)
 
 
 ```
